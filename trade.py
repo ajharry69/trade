@@ -5,7 +5,7 @@ import time
 from pyiqoptionapi import IQOption
 
 try:
-    from env import *
+    from credentials import *
 except ImportError:
     pass
 
